@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    display: flex;  
+    background-color: gray;
+    flex-direction: column;
+   
+   
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(170, 151, 151);
+    width: 1024px;
+    align-items: center;
+    border-radius: 50px; 
+    border-style: groove;
+    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.2);
+  }
+
+.topoDireita{
+    width: 90%;
+    justify-content: center;
+}
+
+.topoEsquerda{
+    width: 10%;
+   
+}
+
+main{
+ 
+    justify-content: center;
+    height: 800px;
+    background-color: white;
+    width: 1024px;
+    border-radius: 50px; 
+    border-style: groove;
+}
+
+.nav-item{
+    padding-right: 35px;
+    display: flex;
+
+ 
+}
+
+ul{
+    text-align: center;
+   display: flex;
+   letter-spacing: 5px;
+   
+}  
+
+.nav-item:hover{
+    text-decoration: underline overline #FF3028;
+    background: pink;
+
+}
+
+.imagensCat{
+    justify-content:space-evenly;
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    margin: 5px;
+}
